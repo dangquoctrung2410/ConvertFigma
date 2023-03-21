@@ -1,0 +1,35 @@
+body{
+    font-size: 22px;
+    color: $gray-darker;
+    font-weight: 400;
+    line-height: 1;
+    font-family: $font-primary;
+}
+.btn{
+    display: inline-block;
+    width: 144px;
+    height: 36px;
+    padding: 22px 38px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: $font-primary;
+    line-height: calc(33/22);
+    border: 0;
+    outline: none;
+    border-radius: 100rem;
+    cursor: pointer;
+    &--white{
+        background-color: white;
+        color: $gray-light;
+        padding: 8px 15px;
+    }
+    &--primary{
+        color: white;
+        background-color: $secondary-color;
+        padding: 8px 15px;
+    }
+}
+
+a{
+    text-decoration: none;
+}
